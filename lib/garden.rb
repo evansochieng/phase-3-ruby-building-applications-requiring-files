@@ -1,5 +1,7 @@
-# Something is missing here
+# load file with the Plant class
+require_relative './plant'
 
+#Define the Garden class. It uses Plant class 
 class Garden
   attr_accessor :name
 
